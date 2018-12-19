@@ -281,9 +281,10 @@ nav > ul > li > span {
 }
 
 #about > ul {
-    background: #ffffffdd;
+    background: transparent;
     margin: 0 auto;
     border-radius: 10px;
+    color: #fff;
 }
 
 #about > ul > li {
@@ -305,7 +306,7 @@ nav > ul > li > span {
 
 .iconGroup > a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
 
 .iconGroup > a > i {

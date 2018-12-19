@@ -11,7 +11,7 @@ export default class AboutUs extends React.Component {
             <div id="about" className="page">
                 <ul>
                     <li>
-                        <h2>Aaron Krueger - Software Engineer</h2>
+                        <h2>Aaron Krueger<br/>Software Engineer</h2>
                         <p>From building data portals for users to designing
                         application mock-ups, climbing the Earth's rocky walls,
                         or capturing nature's creation I seek to understand
