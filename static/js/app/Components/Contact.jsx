@@ -40,7 +40,7 @@ export default class Contact extends React.Component {
             <div id="contact" className="page">
                 <section>
                     <h2>Resources</h2>
-                    <a class="contact-links" href="./images/aaron-krueger-resume.pdf" download>Download Résumé</a>
+                    <a class="contact-links" href="static/images/Aaron-Krueger-Resume.pdf" download>Download Résumé</a>
                     <a class="contact-links" href="mailto:aaronkrueger1@gmail.com?subject=Website connection!">Contact</a>
                 </section>
             </div>
