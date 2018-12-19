@@ -194,6 +194,9 @@ nav > ul > li > span {
     
     #landing > #floating-logo {
         top: 32vh !important;
+        left: calc(50% - 100px) !important;
+        width: 200px !important;
+        height: 200px !important;
     }
 
 }
