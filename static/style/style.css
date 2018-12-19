@@ -138,9 +138,6 @@ nav > ul > li > span {
     font-size: 18px;
 }
 
-.inverted {
-}
-
 .darkBg {
     background: #ffffff;
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#33333333', endColorstr='#33333333'); /* IE */
@@ -176,10 +173,6 @@ nav > ul > li > span {
     nav > ul > li:first-child{
         border-top: solid 1px #fff;
     }
-    
-    nav > ul > li:last-child {
-        /* border-bottom: none; */
-    }
 
     nav > #small-screen-menu-btn {
         float: right;
@@ -188,10 +181,11 @@ nav > ul > li > span {
         color: #3d3d3d;
         display: block;
     }
+
     nav > #small-screen-menu-btn > i {
         font-size: 36px;
     }
-    
+
     #landing > #floating-logo {
         top: 32vh !important;
         left: calc(50% - 100px) !important;
