@@ -9,7 +9,7 @@ The website (containing client and api files)
 * `npm install`
 * cd back to the parent directory
 * `python server.py`
-* visit `localhost:5000` to see the app
+* visit `localhost:7777` to see the app
 
 ### Database information
 Using psql -> download postgres (also recommend getting pgadmin 4)
