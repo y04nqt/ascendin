@@ -1,0 +1,8 @@
+*.pyc
+.vagrant
+.DS_Store
+.cache
+static/node_modules
+static/package-lock.json
+DevEnv/
+__pycache__

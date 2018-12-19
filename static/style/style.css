@@ -1,0 +1,576 @@
+/* Color Palette */
+/* Primary #1976d2, P Dark #004ba0, P Light #63a4ff */
+/* Secondary #e8eaf6, S Dark #b6b8c3, S Light #ffffff */
+
+.hidden {
+    display: none !important;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-weight: 400;
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+}
+
+.primaryBackground {
+    background-color: #ffffff;
+    background-image: url('../images/chicago-twilight.jpeg');
+}
+
+.secondaryBackground {
+    background-color: #557B47;
+    background-image: url('../images/chicago-bridge-bike.jpg');
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    font-weight: 500;
+}
+
+p {
+    margin: 16px 0;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100%;
+}
+
+.page {
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+.page:first-child {
+    margin-top: 0 !important;
+}
+
+nav {
+    width: 100%;
+    padding: 16px 0;
+    text-align: left;
+    background: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#333333AA', endColorstr='#333333AA'); /* IE */
+    /* color: #1976d2; */
+    color: #3d3d3d;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    -webkit-box-shadow: 0px 1px 3px 1px rgba(66,66,66,0.3);
+    -moz-box-shadow: 0px 1px 3px 1px rgba(66,66,66,0.3);
+    box-shadow: 0px 1px 3px 1px rgba(66,66,66,0.3);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.opaqueBg {
+    background: #ffffff;
+    color: #3d3d3d;
+}
+
+nav > h4 {
+    display: inline-flex;
+    padding: 16px;
+    margin-left: 16px;
+    color: #58DA06;
+    border: 2px solid #58DA06;
+    border-radius: 32px;
+    -webkit-box-shadow: 2px 1px 3px 0px rgba(27,40,38,0.55);
+    -moz-box-shadow: 2px 1px 3px 0px rgba(27,40,38,0.55);
+    box-shadow: 2px 1px 3px 0px rgba(27,40,38,0.55);
+    transition: all 300ms linear;
+}
+
+nav > h4:hover, nav > h4:focus  {
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(27,40,38,0.55);
+    -moz-box-shadow: 1px 1px 2px 0px rgba(27,40,38,0.55);
+    box-shadow: 1px 1px 2px 0px rgba(27,40,38,0.55);
+    padding: 15px;
+    margin: 1px;
+    margin-left: 16px;
+    border-radius: 30px;
+}
+
+nav > h4 > i {
+    transform: rotate(-45deg);
+    background: transparent !important;
+}
+
+nav > #small-screen-menu-btn {
+    display: none;
+}
+
+nav > ul {
+    padding: 0;
+    display: inline-flex;
+    float: right;
+    padding: 8px 0;
+    margin-right: 8px;
+    margin-top: 8.5px;
+}
+
+nav > ul > li {
+    display: inline-flex;
+    padding: 4px 8px 0;
+}
+
+nav > ul > li > span {
+    text-align: right;
+    font-size: 18px;
+}
+
+.inverted {
+}
+
+.darkBg {
+    background: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#33333333', endColorstr='#33333333'); /* IE */
+}
+
+.auBlue{
+    color: #1976d2 !important;
+}
+
+@media only screen and (max-width: 560px){
+
+    nav > ul.hide {
+        display: none;
+    }
+
+    nav > ul {
+        position: absolute;
+        top: 83px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        -webkit-box-shadow: 0px 1px 3px 1px rgba(66,66,66,0.3);
+        -moz-box-shadow: 0px 1px 3px 1px rgba(66,66,66,0.3);
+        box-shadow: 0px 1px 3px 1px rgba(66,66,66,0.3);
+    }
+
+    nav > ul > li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+        background: #ffffffee;
+        color: #3d3d3d;
+        border-bottom: solid 1px #fff;
+    }
+
+    nav > ul > li:first-child{
+        border-top: solid 1px #fff;
+    }
+    
+    nav > ul > li:last-child {
+        /* border-bottom: none; */
+    }
+
+    nav > #small-screen-menu-btn {
+        float: right;
+        padding-right: 16px;
+        padding-top: 15px;
+        color: #3d3d3d;
+        display: block;
+    }
+    nav > #small-screen-menu-btn > i {
+        font-size: 36px;
+    }
+    
+    #landing > #floating-logo {
+        top: 32vh !important;
+    }
+
+}
+
+.mainMenuBtn {
+    display: block;
+    width: auto;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Video */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#landing {
+    /* We need 100% for full screen */
+    height: 100%;
+    padding: 0;
+    background: #333;
+}
+
+#landing > #title {
+    position: absolute;
+    top: 20vh;
+    left: 16px;
+    right: 16px;
+    z-index: 99;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 36px;
+}
+
+#landing > #floating-logo {
+    background: url('../images/hello-universe-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    top: 34vh;
+    left: calc(50% - 125px);;
+    
+    position: absolute;
+}
+
+#landing > #tagline {
+    position: absolute;
+    bottom: 6vh;
+    left: 16px;
+    right: 16px;
+    z-index: 99;
+    color: #fff;
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container .poster img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-container video {
+    z-index: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* About */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#about {
+    background-color: transparent;
+    /* 73 + 16 = 89 | Nav bar lol */
+    padding: 89px 25%;
+}
+
+#about > ul {
+    background: #ffffffdd;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#about > ul > li {
+    padding: 16px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#about > ul > li > p {
+    margin-bottom: 0;
+}
+
+.iconGroup {
+    margin: 8px 16px;
+    display: inline-block;
+}
+
+.iconGroup > a {
+    text-decoration: none;
+    color: #333;
+}
+
+.iconGroup > a > i {
+    font-size: 48px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Features */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#projects {
+    background: #ffffff;
+    text-align: center;
+    padding: 0;
+}
+
+#features small {
+    margin: 8px 0 16px;
+    display: block;
+}
+
+#projects > ol {
+    width: 100%;
+    -webkit-box-shadow: 0px -2px 3px 0px rgba(66,66,66,0.3);
+    -moz-box-shadow: 0px -2px 3px 0px rgba(66,66,66,0.3);
+    box-shadow: 0px -2px 3px 0px rgba(66,66,66,0.3);
+}
+
+#projects > ol > li {
+    min-height: 400px;
+    height: 25%;
+    padding: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: solid 1px #fff;
+}
+
+#projects > ol > li:last-child{
+    border-bottom: none;
+}
+
+#activunite-container > section > h2 > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-au-links {
+    margin-top: 4px;
+    display: inline-block;
+    font-size: 22px;
+    padding: 8px;
+}
+
+.social-au-links > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.featureDescriptionContentWrapper {
+    text-align: left;
+    display: inline-block;
+    width: auto;
+    height: calc(100% - 32px);
+    margin: 0 auto 0;
+    min-width: calc(100% - 32px);
+    border-radius: 3px;
+    padding: 16px;
+    background: rgba( 66, 66, 66, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#aaffffff', endColorstr='#aaffffff'); /* IE */
+    color: #fff;
+    overflow-y: auto;
+}
+.featureDescriptionContentWrapper h2 {
+    font-size: 36px;
+}
+.featureDescriptionContentWrapper p {
+    padding-left: 16px;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.featureDescriptionContentWrapper .work-links {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+#spot-link {
+    border-color: #DB3534;
+}
+
+#doublemap-link {
+    border-color: #DB3340;
+}
+
+#tapride-link {
+    border-color: #45BDE5;
+}
+
+#build-profile-container {
+    background-image: url('../images/rock-climbing-profile.png');
+}
+
+#locate-gym-container {
+    background-image: url('../images/nyc-birdseye-view.png');
+}
+
+#activunite-container {
+    background-image: url('../images/activunite-logo.png');
+    background-size: 75vw !important;
+}
+
+#friend-finder-container {
+    background-image: url('../images/hands-in-united.png');
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Contact */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    background: transparent;
+    height: 66%;
+    -webkit-box-shadow: 0px -2px 3px 0px rgba(66,66,66,0.3);
+    -moz-box-shadow: 0px -2px 3px 0px rgba(66,66,66,0.3);
+    box-shadow: 0px -2px 3px 0px rgba(66,66,66,0.3);
+    padding: 0 16px;
+}
+
+#contact > section {
+    background: #ffffffdd;
+    border-radius: 10px;
+    width: 50vw;
+    min-width: 340px;
+    display: block;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+#contact > section > h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+#contact > section > .contact-links {
+    display: inline-block;
+    text-decoration: none;
+    width: calc(50% - 66px);
+    min-width: 170px;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 8px 16px;
+    font-size: 22px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Footer */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#footer {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    padding: 32px 0;
+    text-align: center;
+    background-color: #557B47;
+    color: #fff;
+    -webkit-box-shadow: 0px -1px 3px 1px rgba(66,66,66,0.3);
+    -moz-box-shadow: 0px -1px 3px 1px rgba(66,66,66,0.3);
+    box-shadow: 0px -1px 3px 1px rgba(66,66,66,0.3);
+}
+
+#footer > ul > li > h2 {
+    margin: 24px 0 0;
+}
+
+#footer > ul > li > ol > li {
+    margin-top: 4px;
+    display: inline-block;
+    font-size: 22px;
+    padding: 8px;
+}
+
+#footer > ul > li > ol > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer > ul > li > p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
