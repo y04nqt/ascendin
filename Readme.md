@@ -3,7 +3,7 @@ The website (containing client and api files)
 
 ## Commands
 * clone the repo
-* cd into activunite-web
+* cd into AscendIN
 * `pip3 install -r requirements.txt`
 * cd into static
 * `npm install`
