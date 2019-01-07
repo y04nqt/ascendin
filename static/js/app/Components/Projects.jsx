@@ -45,7 +45,7 @@ export default class Projects extends React.Component {
                             </ol>
                             <p>Founded in 2018</p>
                             <p>Chief Technology Officer, Director of Design and Marketing, and Co-founder</p>
-                            <p>Gym Management & Automation</p>
+                            <p>Web Consulting, Gym Management, and Automation</p>
                         </section>
                     </li>
                     <li id="hello-universe-project" className="featureDescriptionContainers">
